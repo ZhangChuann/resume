@@ -1,6 +1,13 @@
-<center><font size=3>个人简历</front></center>
-
-<center>期望职位：软件工程师（深度学习算法工程师）</center>
+<table>
+    <tr>
+        <td bgcolor=#D1EEEE>
+            <center><font size="5" color="#0000dd">个人简历</font></center>
+            &nbsp
+            <center><font size="5" color="#666600">期望职位：软件工程师（深度学习算法工程师）</font></center>
+            &nbsp
+        </td>
+    </tr>
+</table>
 
 # 个人信息
 

@@ -13,7 +13,7 @@
  - 章川/男/1992
  - 硕士：2014年~2017年 华中科技大学 图像识别与人工智能研究所
  - 本科：2010年~2014年 华中科技大学 自动化专业
- - 工作年限：2年
+ - 工作年限：3年
  - Github：https://github.com/ZhangChuann
  - 技术博客：https://blog.csdn.net/neo_qiye
  - 期望城市：深圳
@@ -30,18 +30,37 @@
 # 工作经历
 
 ## 华为公司 （ 2017年7月 ~ 至今 ）
+<div style='display:none'>
+      |标题一|标题二|标题三|标题四|
+      |- |:---|---:|:---:|
+      |xxxxxxxxx|xxxxxxxxx|xxxxxxxxx|xxxxxxxxx|
+      |xxxxxxxxxxxxxx|xxxxxxxxxxxxxx|xxxxxxxxxxxxxx|xxxxxxxxxxxxxx|
+      |xxxxxxxxx|xxxxxxxxx|xxxxxxxxx|xxxxxxxxx|
+<div style="float:left; text-align:left">靠左显示<br>并且内容居左</div>
+</div>
 
-###   **DaVinci Cloud  AICore 网络训练性能验证**
+
+
+###   **Davinci Mobie AICore 架构设计与验证**  &nbsp;<div style="float:right">(2019年9月~2020年3月)</div>
+结合手机应用场景和Neural Network自身特点，负责设计专业的NN网络卷积后处理模块，以支撑下一代NPU处理器的多任务并行处理架构的目标。在该项目中负责手机端的专用网络需求分析，参与算法性能分析，主持NN后处理模块的架构设计和指令定义，同时负责相应的网络算子编写和性能验证，支撑未来手机NPU应用需求。
+
+###   **Davinci Cloud 网络性能优化支撑**   &nbsp;<div style="float:right">(2019年6月~2020年2月)</div>
+作为芯片架构团队成员，支撑Cloud解决方案团队针对昇腾910芯片网络性能优化专项，促进商业目标达成，其中ResNet50网络训练一分钟内完成收敛，Bert网络性能达到GPU V100性能的2倍以上。在ResNet50优化专项中，主要负责AICore侧功能和性能问题定位，多核方案拆分优化，卷积Tiling方案优化等工作；在Bert网络优化专项中，主要负责功能和性能问题定位，矢量算子方案设计和性能优化，总体性能提升6倍+。
+
+###   **DaVinci Cloud  AICore 网络训练性能验证**   &nbsp;<div style="float:right">(2018年10月~2019年5月)</div>
 我在此项目中负责GNMT（Google's Neural Machine Translation System）网络在DaVinci Cloud芯片上的网络训练性能验证。负责网络中比较核心的LSTM Cell，embedding  layer，projetion layer，Sparse softmax loss等算子的前向，反向性能理论分析，算子CCE编写，性能回归，探索架构的缺点。发现AICore级别的MTE指令性能问题和SoC级别的带宽访问延迟问题，为架构性能达标贡献力量。
 
-###  **DaVinci Mini AICore 架构性能验证**
+###   **Davinci 芯片网络应用精度问题攻关**     &nbsp;<div style="float:right">(2018年3月~2018年5月)</div>
+在第一代产品问世时，神经网络应用遇到部分网络无法与精度标杆完全匹配，组织专项同时定位攻关，最终实现精度问题收敛，网络性能达标。在该项目中，主要负责分析基本单指令的精度特征及其精度提升方案，后续持续支撑网络算子开发团队精度问题分析和解决方案制定。
+###  **DaVinci Edge AICore 架构性能验证**     &nbsp;<div style="float:right">(2017年11月~2018年2月)</div>
 我在这个项目中主要负责基于DaVinci指令集完成目标检测中roipooling，roialign算子，以及轻量级网络算子：Shuffle Net算子的编写；由于这是第一版AICore，指令集，编译器,都处于快速迭代阶段，算子性能验证只能采用汇编编写的形式来完成，初期依照cuda和cpu的实现方式，算子性能严重低于预期，后期探索适用于架构特点的程序策略，并对架构提出有效建议，最终使得roi类算子有近10倍的性能提升，有效的支撑了第一代AICore在目标检测领域的性能。
 
-### **DaVinci AICore Model VALU模块**
+### **DaVinci AICore Model VALU模块**     &nbsp;<div style="float:right">(2017年7月~2018年2月)</div>
 我在这个项目中，主要负责float16算子的基本实现，边界条件判断等，作为RTL实现的refernce model，用于功能bit级校准。由于float16算子的表示范围较小，很容易越界，为了适用于通用的AI计算，DaVinci的float16并没有完全按照IEEE的标准，存在很多不同的边界条件的检测；在这个工作的过程中，通过快速迭代，通用化代码，使得该模块快速稳定；同时，在这一过程中，也对计算机体系结构有了一些新的认识，认识了代码版本管理，是真正进入实际项目的第一课。
 
 ### **工作荣誉**
 - 在Davici微架构验证，算子性能优化，算子精度验证，TIK编程方法探索, 网络训练性能分析获得五次部门芯星奖奖励
+- 图灵核2019年度明日之星
 - 图灵核2018年度明日之星
 ## 校园经历
 ###  **2015.10-2016.12 红外图像气动光学效应校正、目标识别方法研究**
@@ -68,7 +87,7 @@
 
 # 自评
 
- 一个普通的有志青年，热爱技术，相信技术，希望通过自己的努力可以为这个世界带来一些便利，一些快乐，一些惊喜；相信人工智能技术，云技术可以让我们的生活变得更美好，希望在将来的工作中能够从事相关工作。
+ 一个普通的有志青年，热爱计算机&AI技术，希望通过自己的努力可以为这个世界带来一些便利，一些快乐，一些惊喜；相信人工智能技术，云技术可以让我们的生活变得更美好，希望在将来的工作中能够从事相关工作。
 
 # 致谢
 感谢您花时间阅读我的简历，期待能有机会和您共事。

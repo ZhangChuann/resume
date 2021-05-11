@@ -41,7 +41,7 @@
 
 
 
-###   **Davinci Mobie AICore 架构设计与验证**  &nbsp;<div style="float:right">(2019年09月~2020年03月)</div>
+###   **Davinci Mobile AICore 架构设计与验证**  &nbsp;<div style="float:right">(2019年09月~2020年03月)</div>
 结合手机应用场景和Neural Network自身特点，负责设计专业的NN网络卷积后处理模块，以支撑下一代NPU处理器的多任务并行处理架构的目标。在该项目中负责手机端的专用网络需求分析，算法性能分析，主持NN后处理模块的架构设计和指令定义，同时负责相应的网络算子编写和性能验证，支撑未来手机NPU应用需求。
 
 ###   **Davinci Cloud 网络性能优化支撑**   &nbsp;<div style="float:right">(2019年06月~2020年02月)</div>

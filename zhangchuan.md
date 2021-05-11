@@ -1,7 +1,7 @@
 <table>
     <tr>
             <center><font size="5" color="#000110d">个人简历</font></center>
-            <center><font size="5" color="#666600">期望职位：软件工程师（深度学习算法工程师）</font></center>
+            <center><font size="5" color="#666600">期望职位：AI芯片算子库/深度学习软件开发工程师</font></center>
             <div style='display:none'><center><font size="5" color="#666600">*************************************************************************************</font></center></div>
     </tr>
 </table>

@@ -24,12 +24,16 @@
 - 手机：13342966865
 - Email：zhangchuanpro@outlook.com
 - QQ/微信号：1003851855
-- 通讯地址：广东省深圳市龙岗区坂田街道
+- 通讯地址：广东省深圳市南山区南头街道
 
 
 # 工作经历
 
-## 华为公司 （ 2017年07月 ~ 至今 ）
+## 腾讯公司 （ 2020年10月 ~ 至今 ）
+###   **紫霄AI芯片算子开发**  &nbsp;<div style="float:right">(2020年10月~2021年04月)</div>
+熟悉紫霄芯片架构和SIP Core架构，并基于SIP架构编写和优化OCR网络中的算子，包括：图像预处理：bilinear resize, normalization; 图像类型转换：Rgb2Gray; NN网络中Feature Map的上采样：Upsample Layer; NN网络中的global average pooling。 
+
+## 华为公司 （ 2017年07月 ~ 2020年10月 ）
 <div style='display:none'>
       |标题一|标题二|标题三|标题四|
       |- |:---|---:|:---:|

@@ -12,7 +12,7 @@
  - 章川/男/1992
  - 硕士：2014年~2017年 华中科技大学 图像识别与人工智能研究所
  - 本科：2010年~2014年 华中科技大学 自动化专业
- - 工作年限：6年
+ - 工作年限：7.5年
  - Github：https://github.com/ZhangChuann
  - 技术博客：https://blog.csdn.net/neo_qiye
  - 期望城市：深圳
@@ -30,14 +30,16 @@
 
 ## 腾讯公司 （ 2020年10月 ~ 至今 ）
 
-###   **紫霄v2 AI处理器架构设计**  &nbsp;<div style="float:right">(2021年11月~至今)</div>
-参与紫霄v2 自研AI处理器架构设计，负责算法分析，算法到硬件的映射分析；深度参与硬件架构设计，关键指令集设计，微架构设计，编程模型设计，构建了一套算法到硬件自动性能分析的软件框架，实现架构和微架构的快速寻优探索，是架构设计, 指令集设计和性能分析的主要负责人。
+###   **沧海V2 AI子系统算子开发和网络优化**  &nbsp;<div style="float:right">(2022年6月~至今)</div>
+沧海V2是腾讯第二代自研VPU芯片，其中的AI子系统为全自研NPU IP，参与架构设计，关键指令集设计，微架构设计，编程模型设计，构建了一套算法到硬件自动性能分析的软件框架，实现架构和微架构的快速寻优探索；同时负责算子开发和网络优化工作；网络优化包括底层算子优化，定制融合优化和结合图层的深度融合优化。
 
-###   **紫霄v2 AI处理器高性能算子库开发**  &nbsp;<div style="float:right">(2022年1月~至今)</div>
-作为紫霄v2 高性能AOT算子库的开发负责人，设计整体代码开发思路，开发框架和任务管理，并负责关键算子的方案设计和开发：主要有矩阵类算子Conv，MatMul方案设计，模版拆分和Auto-Tiling设计；Softmax，Cast，Pooling，Resize等关键算子的方案设计和开发。
+###   **AI芯片选型测试和性能分析**  &nbsp;<div style="float:right">(2023年6月~至今)</div>
+在CSIG-星星海实验室兼职，参与多家AI芯片的对接，测试，评估和数据分析，包括：Intel Gaudi系列，昇腾系列，昆仑芯系列，AMD MI300X系列，NVIDIA H20等；参与构建理论性能评估平台，指导服务器整体架构设计。
 
+###   **AI处理器高性能算子库开发**  &nbsp;<div style="float:right">(2022年1月~至今)</div>
+作为紫霄V2自定义高性能AOT算子库和沧海V2 AI子系统高性能算子库的开发负责人，设计整体代码开发思路，开发框架和任务管理，并负责关键算子的方案设计和开发：主要有矩阵类算子Conv，MatMul方案设计，模版拆分和Auto-Tiling设计；Softmax，Cast，Pooling，Resize等关键算子的方案设计和开发。
 
-###   **紫霄v1 AI芯片算子开发**  &nbsp;<div style="float:right">(2020年10月~2021年04月)</div>
+###   **紫霄V1 AI芯片算子开发**  &nbsp;<div style="float:right">(2020年10月~2021年04月)</div>
 熟悉紫霄芯片架构和SIP Core架构，并基于SIP架构编写和优化OCR网络中的算子，包括：图像预处理：bilinear resize, normalization; 图像类型转换：Rgb2Gray; NN网络中Feature Map的上采样：Upsample Layer; NN网络中的global average pooling。 
 
 ## 华为公司 （ 2017年07月 ~ 2020年10月 ）
